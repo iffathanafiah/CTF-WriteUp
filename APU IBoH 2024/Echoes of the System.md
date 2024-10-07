@@ -16,8 +16,8 @@ When injecting **ls -l**, it shows all the file names included in the system.
 There is the flag.txt file but we cannot use the keywords flag to print out the file.
 
 
-Final try injecting using **strings *.txt** and results in getting the flag.
+Final try injecting using __strings *.txt__ and results in getting the flag.
 
 
-Flag
+🏳️Flag
 >**IBOH24{G3T_DaA8880948_F1aG}**
