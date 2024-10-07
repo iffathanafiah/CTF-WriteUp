@@ -4,7 +4,7 @@
 Walkthrough
 
 
-When opening the website, you will be greeted at **index.html**. Go through all the pages and at feedback.html, there is a text form where you can insert your feedback. It seems to be able to inject payload.
+When opening the website, you will be greeted at **index.html**. Go through all the pages and at feedback.html, there is a text form where you can insert your feedback. It seems to be able to inject a payload.
 
 
 Try injecting using **cat flag** but it shows an error as it has sanitized the keywords cat and flag.
