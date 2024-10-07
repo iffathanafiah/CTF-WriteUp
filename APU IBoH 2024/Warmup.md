@@ -2,6 +2,7 @@
 
 Walkthrough
 
+
 When opening the website, you will be greeted with a blank page containing “Warm Up” text.
 
 See the page source; there is some clue when you include ?source inside the website link.
@@ -25,6 +26,7 @@ So, for the solution, I try to let the link as below:
 **?warmup=warmupiswarmupisessentialessential**
 
 It will show us the flag.
+
 
 🏳️Flag
 >**IBOH24{5e83215e5db52738f7699a3c5d94702c}**
