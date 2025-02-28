@@ -1,6 +1,6 @@
 # Collection of My CTF Writeups
 
-Currently focused on **Web Exploitation🕸️** and interested in **Cryptography🔑**
+Currently focused on **Web Exploitation🕸️** and interested in **Cryptography🔑** and still a **n3wbees** in CTFs
 
 ## Learning
 
