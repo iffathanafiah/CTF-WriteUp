@@ -10,7 +10,9 @@ inside the Packet Tracer file that is also given.
 > **SSH Credentials:**
 >
 >**IP Address**: 192.168.69.1
+>
 >**Username**: guest
+>
 >**Password**: IBOH24
 
 ![image](https://github.com/user-attachments/assets/f9451231-9b06-4e71-a70b-061a7ea5b956)
