@@ -3,8 +3,8 @@
 Include Learning and Tournaments Writeups
 
 ## Learning
-[here](Learning)
+[Link to Learning Repo](Learning)
 
-## Tournament
+## Tournaments
 
-[here](Tournaments)
+[Link to Tournaments Repo](Tournaments)
