@@ -124,13 +124,17 @@ print("N: ",n)
 
 After getting the n, we can try to interfere with the two conditions for decryption oracle. Based on the first condition (c % pow(flag,e,n) == 0), we can break this condition by adding the n value with the encrypted flag value. 
 >𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔=𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔+𝑛 
-𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 % 𝑝𝑜𝑤(𝑓𝑙𝑎𝑔,𝑒,𝑛) 
-𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 % 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 !=0
+>
+>𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 % 𝑝𝑜𝑤(𝑓𝑙𝑎𝑔,𝑒,𝑛) 
+>
+>𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 % 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 !=0
 
 But, by using this method, it cannot break the second condition (flag % pow(c,d,n) == 0).
 >𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 = 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 + 𝑛
-𝑓𝑙𝑎𝑔 % 𝑝𝑜𝑤(𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔, 𝑑, 𝑛)
-𝑑𝑒𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 = (𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔)𝑑 𝑚𝑜𝑑 𝑛
+>
+>𝑓𝑙𝑎𝑔 % 𝑝𝑜𝑤(𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔, 𝑑, 𝑛)
+>
+>𝑑𝑒𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 = (𝑛𝑒𝑤 𝑒𝑛𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔)𝑑 𝑚𝑜𝑑 𝑛
 //n value inside the new encrypted flag will become 0 after mod n.
 𝑓𝑙𝑎𝑔 % 𝑑𝑒𝑐𝑟𝑦𝑝𝑡𝑒𝑑 𝑓𝑙𝑎𝑔 == 0
 
