@@ -6,8 +6,8 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 ## Learning
 
-[Link to Learning Repo](Learning)
+[XSS Challenge](Learning)
 
 ## Tournaments
 
-[Link to Tournaments Repo](Tournaments)
+[APU IBoH CTF 2024](Tournaments/)
