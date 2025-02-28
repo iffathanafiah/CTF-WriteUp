@@ -4,11 +4,9 @@
 
 Currently focused on **Web Exploitation🕸️** and interested in **Cryptography🔑**
 
-
 ## 📖Learning
 
 [XSS Challenge by **y0n3uchy**](Learning/XSS%20Challenge/) - https://xss.challenge.training.hacq.me/
-
 
 ## 🏆Tournaments
 
