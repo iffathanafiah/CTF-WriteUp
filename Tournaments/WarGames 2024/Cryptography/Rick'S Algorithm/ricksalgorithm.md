@@ -2,7 +2,7 @@
 
 > Category: Cryptography🔑
 
-![img](../RSA/challenge.png)
+![img](../Rick'S%20Algorithm/challenge.png)
 
 For this challenge, we are given the server connection info to connect using
 
@@ -57,7 +57,7 @@ while True:
 
 We will be greeted with this program which able to do this process:
 
-![img](../RSA/server.png)
+![img](../Rick'S%20Algorithm/server.png)
 
 ## Solution
 > Decryption Script can be seen in decrypt.py
@@ -90,11 +90,11 @@ We can try CPA Attack to find n value.
 In Chosen Plaintext Attack, we will try to choose and send some plaintext to the encryption
 oracle to get back the ciphertext.
 
-![img](../RSA/encoracale.png)
+![img](../Rick'S%20Algorithm/encoracale.png)
 
 If e is known (e=0x557), we can compute n which comes from the formula:
 
->![img](../RSA/n.png) // if there are only two pairs of plaintexts and ciphertexts
+>![img](../Rick'S%20Algorithm/n.png) // if there are only two pairs of plaintexts and ciphertexts
 
 In this writeup, I choose ‘!’ as M1 and ‘B’ as M2
 
@@ -138,13 +138,13 @@ So, we need to come up with a solution to break both the conditions.
 
 I come up with CCA Attack which is a Chosen Ciphertext Attack:
 
-![img](../RSA/decoracle.png)
+![img](../Rick'S%20Algorithm/decoracle.png)
 
 In CCA, we will choose ciphertext to be sent to the decryption oracle to get the plaintext.
 
 By taking the advantage of the multiplicative property of RSA, we can perform as below:
 
-![img](../RSA/cca.png)
+![img](../Rick'S%20Algorithm/cca.png)
 
 We can find a random value ‘r’ which is co-prime (relative prime) to n value.
 
@@ -163,7 +163,7 @@ print("\nRandom r value:", r)
 
 Then. we can find C’(new encrypted flag) by having the C(encrypted flag), r, e, and n values by:
 
-![img](../RSA/cre.png)
+![img](../Rick'S%20Algorithm/cre.png)
 
 ```python
 # C' = C * r^e mod n
@@ -183,7 +183,7 @@ m_prime = 1593758586364472655727943738413723224321086583772538762859506868188461
 
 M’ is equivalent to:
 
-![img](../RSA/msharp.png)
+![img](../Rick'S%20Algorithm/msharp.png)
 
 So, to get the flag (which is M), we need to multiply M’ with r-1. We also can use the modular inverse function to find M:
 
@@ -202,6 +202,6 @@ But the output seems to be encoded. Decode the encoded flag from long to bytes:
 print("\nDecoded Flag:",long_to_bytes(encoded_flag).decode())
 ```
 
-## 🏳️Flag
+## 🏳️Flag:
 
 >wgmy{ce7a475ff0e122e6ac34c3765449f71d}
