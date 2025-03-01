@@ -1,6 +1,6 @@
-# Echoes of the System🕸️
+# Echoes of the System 🕸️
 
-> Category: Web Exploitation🕸️
+> Category: Web Exploitation 🕸️
 
 ## Walkthrough
 

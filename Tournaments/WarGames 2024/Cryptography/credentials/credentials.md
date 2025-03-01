@@ -1,6 +1,6 @@
-# Credentials🔑
+# Credentials 🔑
 
-> Category: Cryptography🔑
+> Category: Cryptography 🔑
 
 ![img](../credentials/challenge.png)
 

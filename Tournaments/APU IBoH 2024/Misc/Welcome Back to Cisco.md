@@ -1,4 +1,5 @@
-# Welcome Back to Cisco
+# Welcome Back to 
+
 > Category: Miscellaneous
 
 
@@ -7,7 +8,7 @@
 In the challenge description, we are given the SSH credentials for us to log in to the router
 inside the Packet Tracer file that is also given.
 
-> **SSH Credentials:**
+>**SSH Credentials:**
 >
 >**IP Address**: 192.168.69.1
 >

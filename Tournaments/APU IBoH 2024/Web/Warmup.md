@@ -1,5 +1,6 @@
-# Warmup🕸️
-> Category: Web Exploitation🕸️
+# Warmup 🕸️
+
+> Category: Web Exploitation 🕸️
 
 ## Walkthrough
 

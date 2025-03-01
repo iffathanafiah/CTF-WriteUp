@@ -1,6 +1,6 @@
-# Rick'S Algorithm🔑
+# Rick'S Algorithm 🔑
 
-> Category: Cryptography🔑
+> Category: Cryptography 🔑
 
 ![img](../Rick'S%20Algorithm/challenge.png)
 
