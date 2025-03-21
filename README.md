@@ -10,7 +10,7 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 ## 🏆Tournaments
 
-&nbsp;**2024**
+&nbsp;**🚩2024**
 
 [APU IBoH CTF 2024](Tournaments/APU%20IBoH%202024/) - https://www.apu.edu.my/media/news/3342
 
@@ -22,6 +22,6 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 &thinsp;
 
-**2025**
+**🚩2025**
 
 [picoCTF 2025](Tournaments/picoCTF%202025/) - https://picoctf.org/competitions/2025-spring.html
