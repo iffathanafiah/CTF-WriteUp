@@ -48,13 +48,13 @@ We know that it is a **python flask** and we need to find some payload to bypass
 
 Due to **os** has been blocked, we try to use this payload template and insert command as needed:
 
-```
+```python
 __import__('subprocess').getoutput('commmand_here')
 ```
 
 First, try to check the directory by using **ls** command but change a bit to bypass the blocked keyword:
 
-```
+```python
 __import__('subprocess').getoutput('l'+'s')
 ```
 
