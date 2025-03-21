@@ -17,3 +17,5 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 [PWC Hackaday 2024](Tournaments/PWC%20Hackaday%202024/) - https://www.pwc.com/my/en/media/press-releases/2024/20241111-pwc-malaysia-capture-the-flag-competition.html
 
 [WarGames 2024](Tournaments/WarGames%202024/) - https://wargames.my/2024/
+
+[picoCTF 2025](Tournaments/picoCTF%202025/) - https://picoctf.org/competitions/2025-spring.html
