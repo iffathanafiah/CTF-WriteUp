@@ -28,6 +28,6 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 [BBCTF 2025](Tournaments/BBCTF%202025/) - 9th Placement. [RE:HACK LinkedIn Post](https://www.linkedin.com/posts/rehack-xyz_reun10n-ctf-cybersecurity-activity-7326881447170969600-8kH0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA)
 
-[UMCS 2025](Tournaments/UMCS%202025/) - 5th Placement in Final. https://umcybersec.site/
+[UMCS 2025](Tournaments/UMCS%202025/) - 14th Placement in Preliminary, 5th Placement in Final. https://umcybersec.site/
 
 [UTeMCTF 2025](Tournaments/UTeMCTF%202025/) - 5th Placement. [NETSA LinkedIn Post](https://www.linkedin.com/posts/sarahmjufri_network-and-security-student-association-activity-7323264664757317633-k3xI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA)
