@@ -14,7 +14,7 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 [APU IBoH CTF 2024](Tournaments/APU%20IBoH%202024/) - 10th Placement in Local Category. https://www.apu.edu.my/media/news/3342
 
-[CURTIN CTF 2024] - 16th Placement.(Tournaments/CURTIN%20CTF%202024/) - https://curtin.edu.my/event/capture-the-flag/
+[CURTIN CTF 2024](Tournaments/CURTIN%20CTF%202024/) - 16th Placement.  https://curtin.edu.my/event/capture-the-flag/
 
 [PWC Hackaday 2024](Tournaments/PWC%20Hackaday%202024/) - 8th Placement in Malaysia. https://www.pwc.com/my/en/media/press-releases/2024/20241111-pwc-malaysia-capture-the-flag-competition.html
 
