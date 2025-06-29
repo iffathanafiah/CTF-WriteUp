@@ -34,4 +34,4 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 [cornCTF 2025](Tournaments/cornCTF%202025/) - https://ctftime.org/event/2762/
 
-[CYDES Preliminary Round 2025](Tournaments/Cydes%20Preliminary%20Round%202025/) - [RE:HACK LinkedIn Post](https://www.linkedin.com/posts/rehack-xyz_cydes2025-badgetobreach-icsctf-activity-7345058378819260416-vK5A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA)
+[CYDES CTF 2025](Tournaments/Cydes%20Preliminary%20Round%202025/) - 16th Placement in Preliminary. [RE:HACK LinkedIn Post](https://www.linkedin.com/posts/rehack-xyz_cydes2025-badgetobreach-icsctf-activity-7345058378819260416-vK5A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA)
