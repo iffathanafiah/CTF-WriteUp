@@ -33,3 +33,5 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 [UTeMCTF 2025](Tournaments/UTeMCTF%202025/) - 5th Placement. [NETSA LinkedIn Post](https://www.linkedin.com/posts/sarahmjufri_network-and-security-student-association-activity-7323264664757317633-k3xI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA)
 
 [cornCTF 2025](Tournaments/cornCTF%202025/) - https://ctftime.org/event/2762/
+
+[CYDES Preliminary Round 2025](Tournaments/Cydes%20Preliminary%20Round%202025/) - [RE:HACK LinkedIn Post](https://www.linkedin.com/posts/rehack-xyz_cydes2025-badgetobreach-icsctf-activity-7345058378819260416-vK5A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA)
