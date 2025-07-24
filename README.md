@@ -24,7 +24,7 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 &thinsp;
 
-**🚩2025**
+### 🚩2025
 
 | Writeup Materials | Placement | Website Link |
 | :--- | :--- | :--- |
