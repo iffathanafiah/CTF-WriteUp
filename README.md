@@ -8,6 +8,8 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 
 [XSS Challenge by **y0n3uchy**](Learning/XSS%20Challenge/) - https://xss.challenge.training.hacq.me/
 
+[TryHackMe Machines](Learning/TryHackMe/Machines/) - https://tryhackme.com/p/iffathanafiah
+
 ## 🏆Tournaments
 
 &nbsp;**🚩2024**
