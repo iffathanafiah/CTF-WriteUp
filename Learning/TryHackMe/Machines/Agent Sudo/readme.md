@@ -39,6 +39,8 @@ For this, I just try to **edit and resend** the request from the **Firefox Devel
 <b>Answer: chris</b>
 </details><br>
 
+## Exploitation
+
 Then, it says that the agent that we found have weak password. I try to **crack the password** of the agent for the **FTP server**.
 
 ![img](hydra.png)
@@ -145,8 +147,6 @@ $ cat message.txt
 <summary><b>Question: SSH password</b></summary>
 <b>Answer: hackerrules!</b>
 </details><br>
-
-## Exploitation
 
 Now we got the password already, we can just use it to SSH to the server and get the user flag.
 ```bash
