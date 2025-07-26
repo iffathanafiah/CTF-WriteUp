@@ -11,7 +11,7 @@ Currently focused on **Web Exploitation🕸️** and interested in **Cryptograph
 | Writeup Materials | Website Link |
 | :--- | :--- |
 | [XSS Challenge by **y0n3uchy**](Learning/XSS%20Challenge/) | https://xss.challenge.training.hacq.me/ |
-| [TryHackMe Machines](Learning/TryHackMe/Machines/) | https://tryhackme.com/p/iffathanafiah |
+| [TryHackMe Machines](Learning/TryHackMe/Machines/readme.md) | https://tryhackme.com/p/iffathanafiah |
 
 &thinsp;
 
