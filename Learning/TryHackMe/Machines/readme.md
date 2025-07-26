@@ -1,6 +1,6 @@
 # Collection of TryHackMe Machines Writeups
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/iffathanafiah.png" alt="Your Image Badge"/>
+[![img](https://tryhackme-badges.s3.amazonaws.com/iffathanafiah.png)](https://tryhackme.com/p/iffathanafiah)
 
 | Writeup | Type | Category | Difficulty | Machine |
 | :--- | :--- | :--- | :---: | :--- |
