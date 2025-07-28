@@ -10,3 +10,4 @@
 | [Agent Sudo Writeup](Agent%20Sudo/readme.md) | Red Team | Linux, Web | Easy | [Agent Sudo](https://tryhackme.com/room/agentsudoctf) |
 | [Overpass Writeup](Overpass/readme.md) | Red Team | Linux, Web | Easy | [Overpass](https://tryhackme.com/room/overpass) |
 | [Lazy Admin Writeup](Lazy%20Admin/readme.md) | Red Team | Linux, Web | Easy | [Lazy Admin](https://tryhackme.com/room/lazyadmin) |
+| [Cyborg Writeup](Cyborg/readme.md) | Red Team | Linux, Web | Easy | [Cyborg](https://thttps://tryhackme.com/room/cyborgt8) |
