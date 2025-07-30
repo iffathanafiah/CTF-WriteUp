@@ -1,6 +1,10 @@
 # Collection of My CTF Writeups
 
-**n3wbees** in CTFs
+```bash
+┌──(elitemi24@n3wbees)-[~/CTF-WriteUp]
+└─$ id
+uid=1337(elitemi24) gid=1337(n3wbees) groups=1337(n3wbees)
+```
 
 Currently focused on **Web Exploitation🕸️** and interested in **Cryptography🔑**
 
