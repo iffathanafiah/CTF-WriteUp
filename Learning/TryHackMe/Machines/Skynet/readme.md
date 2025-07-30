@@ -96,7 +96,7 @@ I used **Burp Suite** for this as I find it easier for me. Set the **login_usern
 
 Most of the attack results in status code of 200. However, only one payload able to bring status code of 302, so I think it is the correct password. Use the password to login to the squirrel mail
 
-![img](intruderresults.png)
+![img](intruderresult.png)
 
 Then, in the email, we found out that it includes the smb password for milesdyson.
 
