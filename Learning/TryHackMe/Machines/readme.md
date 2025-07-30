@@ -11,3 +11,4 @@
 | [Overpass Writeup](Overpass/readme.md) | Red Team | Linux, Web | Easy | [Overpass](https://tryhackme.com/room/overpass) |
 | [Lazy Admin Writeup](Lazy%20Admin/readme.md) | Red Team | Linux, Web | Easy | [Lazy Admin](https://tryhackme.com/room/lazyadmin) |
 | [Cyborg Writeup](Cyborg/readme.md) | Red Team | Linux, Web | Easy | [Cyborg](https://thttps://tryhackme.com/room/cyborgt8) |
+| [Skynet Writeup](Skynet/readme.md) | Red Team | Linux, Web | Easy | [Skynet](https://tryhackme.com/room/skynet) |
