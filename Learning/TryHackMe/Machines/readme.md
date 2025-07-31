@@ -11,5 +11,5 @@
 | [Overpass Writeup](Overpass/readme.md) | Red Team | Linux, Web | Easy | [Overpass](https://tryhackme.com/room/overpass) |
 | [Lazy Admin Writeup](Lazy%20Admin/readme.md) | Red Team | Linux, Web | Easy | [Lazy Admin](https://tryhackme.com/room/lazyadmin) |
 | [Cyborg Writeup](Cyborg/readme.md) | Red Team | Linux, Web | Easy | [Cyborg](https://thttps://tryhackme.com/room/cyborgt8) |
-| [Skynet Writeup](Skynet/readme.md) | Red Team | Linux, Web | Easy | [Skynet](https://tryhackme.com/room/skynet) |
-| [Brooklyn Nine Nine Writeup](Brooklyn%20Nine%20Nine/readme.md) | Red Team | Linux, Web | Easy | [Brooklyn Nine Nine](https://tryhackme.com/room/brooklynninenine) |
+| [Skynet Writeup](Skynet/readme.md) | Red Team | Linux | Easy | [Skynet](https://tryhackme.com/room/skynet) |
+| [Brooklyn Nine Nine Writeup](Brooklyn%20Nine%20Nine/readme.md) | Red Team | Linux | Easy | [Brooklyn Nine Nine](https://tryhackme.com/room/brooklynninenine) |
