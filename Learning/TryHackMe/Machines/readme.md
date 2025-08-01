@@ -13,3 +13,4 @@
 | [Cyborg Writeup](Cyborg/readme.md) | Red Team | Linux, Web | Easy | [Cyborg](https://thttps://tryhackme.com/room/cyborgt8) |
 | [Skynet Writeup](Skynet/readme.md) | Red Team | Linux | Easy | [Skynet](https://tryhackme.com/room/skynet) |
 | [Brooklyn Nine Nine Writeup](Brooklyn%20Nine%20Nine/readme.md) | Red Team | Linux | Easy | [Brooklyn Nine Nine](https://tryhackme.com/room/brooklynninenine) |
+| [Startup Writeup](Startup/readme.md) | Red Team | None | Easy | [Startup](https://tryhackme.com/room/startup) |
