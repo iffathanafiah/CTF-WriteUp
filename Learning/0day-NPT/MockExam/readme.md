@@ -21,7 +21,7 @@ PING <TARGET-IP> (<TARGET-IP>) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.986/0.986/0.986/0.000 ms
 ```
 
-You also can use **netdiscover** for this:
+You can also use **netdiscover** for this:
 ```
 ┌──(kali㉿kali)-[~]
 └─$ sudo netdiscover -i eth0 -r <YOUR-IP-SUBNET>/24
