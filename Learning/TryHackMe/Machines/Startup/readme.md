@@ -359,3 +359,16 @@ Then, read the **"root.txt"** file to complete this machine.
 <summary><b>🏳️Flag: root.txt</b></summary>
 <b>THM{f963aaa6a430f210222158ae15c3d76d}</b>
 </details><br>
+
+Actually, for every minute, the **"planner.sh"** in **scripts directory** inside **lennie directory** will run and execute the **"/etc/print.sh"** script.
+```
+# crontab -l
+* * * * * /home/lennie/scripts/planner.sh
+
+# cat /home/lennie/scripts/planner.sh
+#!/bin/bash
+echo $LIST > /home/lennie/scripts/startup_list.txt
+/etc/print.sh
+```
+
+That's why we get the **"/etc/print.sh" script running**.
