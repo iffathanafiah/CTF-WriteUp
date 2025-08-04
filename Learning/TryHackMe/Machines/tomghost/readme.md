@@ -10,8 +10,8 @@
 
 First of all, we will begin with the **Nmap**. Actually, you can just use a normal Nmap command, but here is my preferences.
 ```
-┌──(kali㉿kali)-[/mnt/…/Learning/TryHackMe/Machines/Brooklyn Nine Nine]
-└─$ nmap -sVSC <TARGET-IP> -T5 -Pn -n -vvv -oA brooklyn99scan
+┌──(kali㉿kali)-[/mnt/…/Learning/TryHackMe/Machines/tomghost]
+└─$ nmap -sVSC <TARGET-IP> -T5 -Pn -n -vvv -oA tomghostscan
 Nmap scan report for <TARGET-IP>
 Host is up, received user-set (0.27s latency).
 Scanned at 2025-08-03 13:44:59 +08 for 20s
