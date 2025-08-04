@@ -1,6 +1,6 @@
 # Collection of My CTF Writeups
 
-```bash
+```
 ┌──(elitemi24@n3wbees)-[~/CTF-WriteUp]
 └─$ id; cat /etc/motd
 uid=1337(elitemi24) gid=1337(n3wbees) groups=1337(n3wbees)
