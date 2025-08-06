@@ -16,3 +16,4 @@
 | 10. | [Startup Writeup](Startup/readme.md) | Red Team | None | Easy | [Startup](https://tryhackme.com/room/startup) |
 | 11. | [tomghost Writeup](tomghost/readme.md) | Red Team | None | Easy | [tomghost](https://tryhackme.com/room/tomghost) |
 | 12. | [Ignite Writeup](Ignite/readme.md) | Red Team | Linux, Web | Easy | [Ignite](https://tryhackme.com/room/ignite) |
+| 13. | [Mr Robot CTF Writeup](Mr%20Robot%20CTF/readme.md) | Red Team | Linux | Medium | [Mr Robot CTF](https://tryhackme.com/room/mrrobot) |
