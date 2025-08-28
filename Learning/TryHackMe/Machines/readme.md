@@ -19,3 +19,4 @@
 | 13. | [Mr Robot CTF Writeup](Mr%20Robot%20CTF/readme.md) | Red Team | Linux | Medium | [Mr Robot CTF](https://tryhackme.com/room/mrrobot) |
 | 14. | [Wgel CTF Writeup](Wgel%20CTF/readme.md) | Red Team | None | Easy | [Wgel CTF](https://tryhackme.com/room/wgelctf) |
 | 15. | [Wonderland Writeup](Wonderland/readme.md) | Red Team | None | Medium | [Wonderland](https://tryhackme.com/room/wonderland) |
+| 16. | [Brute It Writeup](Brute%20It/readme.md) | Red Team | Linux | Easy | [Brute It](https://tryhackme.com/room/bruteit) |
