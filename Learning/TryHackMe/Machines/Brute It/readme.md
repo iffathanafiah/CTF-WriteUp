@@ -157,6 +157,7 @@ Moving on to **escalate our privileges to root**. We need to find what can we le
 
 First we try to check with the **sudo permission** first
 ```
+john@bruteit:~$ sudo -l
 Matching Defaults entries for john on bruteit:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
