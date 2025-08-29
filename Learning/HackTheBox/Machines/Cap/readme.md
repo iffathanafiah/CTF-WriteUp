@@ -49,7 +49,7 @@ From the **Nmap** results, looks like the port <code>80</code>, port <code>21</c
 
 Now try to **enumerate the web directory** of the page **using GoBuster**:
 ```
-┌──(kali㉿kali)-[/mnt/…/Learning/HackTheBox/Machines/cap]
+┌──(kali㉿kali)-[/mnt/…/Learning/HackTheBox/Machines/Cap]
 └─$ gobuster dir -u http://<TARGET-IP>/ -w /usr/share/wordlists/dirb/common.txt
 ===============================================================
 Gobuster v3.6
