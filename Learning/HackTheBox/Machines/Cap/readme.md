@@ -46,7 +46,6 @@ Service detection performed. Please report any incorrect results at https://nmap
 ```
 
 From the **Nmap** results, looks like the port <code>80</code>, port <code>21</code> and port <code>22</code> are open.
-![img](webpage.png)
 
 Now try to **enumerate the web directory** of the page **using GoBuster**:
 ```
