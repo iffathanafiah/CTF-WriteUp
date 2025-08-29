@@ -23,6 +23,7 @@ Currently focused on Web Exploitation🕸️ and interested in Cryptography🔑
 | :--- | :--- |
 | [XSS Challenge by **y0n3uchy**](Learning/XSS%20Challenge/) | https://xss.challenge.training.hacq.me/ |
 | [TryHackMe Machines](Learning/TryHackMe/Machines/readme.md) | https://tryhackme.com/p/iffathanafiah |
+| [HackTheBox Machines](Learning/HackTheBox/Machines/readme.md) | https://app.hackthebox.com/users/2146466 |
 | [0day NPT 2025 Mock Exam](Learning/0day-NPT/MockExam/readme.md) | [0day Technology LinkedIn Post](https://www.linkedin.com/posts/zer0day-technology_brochure-activity-7325143738924642304-AlF9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA) |
 | [0day NPT 2025 Exam](Learning/0day-NPT/Exam/readme.md) | [0day Technology LinkedIn Post](https://www.linkedin.com/posts/zer0day-technology_brochure-activity-7325143738924642304-AlF9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA) |
 
