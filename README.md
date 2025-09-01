@@ -6,7 +6,7 @@
 uid=1337(elitemi24) gid=1337(n3wbees) groups=1337(n3wbees)
 
 Welcome to elitemi24's CTF Writeup Zone
-Currently focused on Web Exploitation🕸️ and interested in Cryptography🔑
+Currently focused on Web Exploitation🕸️ but also interested in Cryptography🔑 and Boot2Root⚔️
 ```
 
 &thinsp;
@@ -52,6 +52,8 @@ Currently focused on Web Exploitation🕸️ and interested in Cryptography🔑
 | [UTeMCTF 2025](Tournaments/UTeMCTF%202025/) | 5th Placement | [NETSA LinkedIn Post](https://www.linkedin.com/posts/sarahmjufri_network-and-security-student-association-activity-7323264664757317633-k3xI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA) |
 | [cornCTF 2025](Tournaments/cornCTF%202025/) | Didn't get placements | https://ctftime.org/event/2762/ |
 | [CYDES CTF 2025](Tournaments/Cydes%20Preliminary%20Round%202025/) | 16th Placement in Preliminary | [RE:HACK LinkedIn Post](https://www.linkedin.com/posts/rehack-xyz_cydes2025-badgetobreach-icsctf-activity-7345058378819260416-vK5A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA) |
+| [3108 CTF 2025](Tournaments/3108CTF/readme.md) | __th Placement | [Bahtera Digital Technology LinkedIn Post](https://www.linkedin.com/posts/bahteradigitech_3108-ctf-kembali-lagi-satria-sedia-pendaftaran-activity-7363566414625976322-XmDl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA) |
+| [SunCTF 2025](Tournaments/SunCTF2025/readme.md) | 15th Placement | [Sunway Cyber Security Club LinkedIn Post](https://www.linkedin.com/posts/csc-sunway_sunctf2025-cybersecurity-sunwayuniversity-activity-7350803334867431427-HZcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2wMt8B8VXY2pohQ7YoLZP3GkVFrg9rNVA) |
 
 &thinsp;
 
