@@ -20,3 +20,4 @@
 | 14. | [Wgel CTF Writeup](Wgel%20CTF/readme.md) | Red Team | None | Easy | [Wgel CTF](https://tryhackme.com/room/wgelctf) |
 | 15. | [Wonderland Writeup](Wonderland/readme.md) | Red Team | None | Medium | [Wonderland](https://tryhackme.com/room/wonderland) |
 | 16. | [Brute It Writeup](Brute%20It/readme.md) | Red Team | Linux | Easy | [Brute It](https://tryhackme.com/room/bruteit) |
+| 16. | [Attacktive Directory Writeup](Attacktive%20Directory/readme.md) | Red Team | Windows | Medium | [Attacktive Directory](https://tryhackme.com/room/attacktivedirectory) |
