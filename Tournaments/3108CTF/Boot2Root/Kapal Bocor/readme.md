@@ -11,7 +11,7 @@
 
 _Scanning showed a domain controller for <code>bahtera.corp</code> with **Kerberos, LDAP, SMB, and WinRM**. User enumeration found <code>lc.wei</code> vulnerable to **AS-REP roasting**, and the cracked hash gave domain access. From there, **misconfigured ACL** allowed resetting <code>svc_backup</code> password, which was in **Remote Management Users** and could log in with **WinRM**. That account had <code>SeBackupPrivilege</code>, enabling dumping of <code>SAM</code> and <code>SYSTEM</code> hives to extract the **Administrator hash**, which was used with **pass-the-hash** to get **Administrator**._
 
-**⚡ Attack Path in One Line:**
+**⚡ Attack Path:**
 
 **AS-REP roast** <code>lc.wei</code> → **abuse ACL** to reset <code>svc_backup</code> password → **WinRM login** with <code>SeBackupPrivilege</code> → **dump <code>SAM</code> hashes** → **pass-the-hash** as **Administrator** → read <code>root.txt</code>.
 
