@@ -11,7 +11,7 @@
 
 ## 🔗 Overview
 
-**[Cap](https://app.hackthebox.com/machines/Cap)** starts with an **IDOR** in the web app that lets you download other users’ <code>.pcap</code> files, where **leaked credentials can be found** and used for SSH access. Once inside, privilege escalation is possible because <code>/usr/bin/python3.8</code> has the <code>cap_setuid</code> capability, allowing you to run Python and **switch your UID to root**, **gaining full control of the machine**.
+_**[Cap](https://app.hackthebox.com/machines/Cap)** starts with an **IDOR** in the web app that lets you download other users’ <code>.pcap</code> files, where **leaked credentials can be found** and used for SSH access. Once inside, privilege escalation is possible because <code>/usr/bin/python3.8</code> has the <code>cap_setuid</code> capability, allowing you to run Python and **switch your UID to root**, **gaining full control of the machine**._
 
 
 ## 🔍 Enumeration

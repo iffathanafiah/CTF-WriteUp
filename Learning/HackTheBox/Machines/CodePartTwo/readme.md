@@ -11,7 +11,7 @@
 
 ## 🔗 Overview
 
-[CodePartTwo](https://app.hackthebox.com/machines/CodePartTwo) presents a challenge where the user can run JavaScript directly in the page. Downloading the source revealed it was a Flask app using <code>js2py</code>, which had a sandbox escape vulnerability. Exploiting this gave RCE and a shell as <code>app</code>. From there, a SQLite database leaked user hashes; cracking <code>marco</code>’s password enabled SSH access. Finally, with <code>sudo</code> rights on <code>npbackup-cli</code>, we modified the config to back up <code>/root/.ssh</code>, dumped the private key, and logged in as <code>root</code>.
+_**[CodePartTwo](https://app.hackthebox.com/machines/CodePartTwo)** presents a challenge where the user can run JavaScript directly in the page. Downloading the source revealed it was a Flask app using <code>js2py</code>, which had a sandbox escape vulnerability. Exploiting this gave RCE and a shell as <code>app</code>. From there, a SQLite database leaked user hashes; cracking <code>marco</code>’s password enabled SSH access. Finally, with <code>sudo</code> rights on <code>npbackup-cli</code>, we modified the config to back up <code>/root/.ssh</code>, dumped the private key, and logged in as <code>root</code>._
 
 **⚡ Path:**
 
