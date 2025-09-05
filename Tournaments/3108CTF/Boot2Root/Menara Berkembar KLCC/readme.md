@@ -8,7 +8,7 @@
 
 _Scanning showed a web server with **Apache**, an open **FTP allowing anonymous login**, and **SSH**. FTP contained only decoy files, but the website **exposed an upload page**, which was **exploited by uploading a PHP reverse shell** to gain a foothold as <code>www-data</code>. **Enumeration** revealed a **hidden Base64-encoded secret** containing <code>john</code>’s SSH credentials. Logging in as <code>john</code> gave access to the user flag. For privilege escalation, <code>john</code> could run <code>/usr/local/bin/backup.sh</code> as root without a password. The script used <code>tar</code> unsafely, allowing a **tar wildcard injection** to execute arbitrary commands as root, leading to a full system compromise._
 
-**⚡ Attack Path in One Line:**
+**⚡ Attack Path:**
 
 Upload PHP shell → get foothold as <code>www-data</code> → decode secret to get <code>john</code>’s SSH creds → SSH login as <code>john</code> → abuse <code>tar</code> in <code>backup.sh</code> for wildcard injection → escalate to root → read <code>root.txt</code>.
 
