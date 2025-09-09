@@ -298,7 +298,7 @@ cat /root/root.txt
 
 ## 📌 Final Thoughts
 
-Thank you for reading my writeups. Based, on this machine, I leant that we must try to enumerate the other subdomains of the server to reveal some hidden secrets.
+Thank you for reading my writeups. Based, on this machine, I learned that we must try to enumerate the other subdomains of the server to reveal some hidden secrets.
 
 
 ## 📚 References:
