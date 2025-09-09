@@ -11,11 +11,11 @@
 
 ## 🔗 Overview
 
-[Fluffy](https://app.hackthebox.com/machines/Fluffy) starts in an Active Directory domain (<code>DC01.fluffy.htb</code>). With the creds for <code>j.fleischman</code>, we find an IT share containing a hint about recent vulnerabilities. Using **CVE-2025-24071** with Responder, we capture and crack an NTLMv2 hash for <code>p.agila</code>, giving us our first foothold.
+_[Fluffy](https://app.hackthebox.com/machines/Fluffy) starts in an Active Directory domain (<code>DC01.fluffy.htb</code>). With the creds for <code>j.fleischman</code>, we find an IT share containing a hint about recent vulnerabilities. Using **CVE-2025-24071** with Responder, we capture and crack an NTLMv2 hash for <code>p.agila</code>, giving us our first foothold._
 
-BloodHound shows <code>p.agila</code> can control the Service Accounts group. Abusing this, we perform a Shadow Credentials attack on <code>winrm_svc</code>, extract its hash with Certipy, and gain a shell via Evil-WinRM.
+_BloodHound shows <code>p.agila</code> can control the Service Accounts group. Abusing this, we perform a Shadow Credentials attack on <code>winrm_svc</code>, extract its hash with Certipy, and gain a shell via Evil-WinRM._
 
-For privilege escalation, <code>winrm_svc</code> has rights over <code>ca_svc</code> (a Cert Publishers member). The CA is vulnerable to **ESC16**, letting us request a certificate as **Administrator**. With that, we recover the Administrator hash and finish the box as root.
+_For privilege escalation, <code>winrm_svc</code> has rights over <code>ca_svc</code> (a Cert Publishers member). The CA is vulnerable to **ESC16**, letting us request a certificate as **Administrator**. With that, we recover the Administrator hash and finish the box as root._
 
 
 ## 🔍 Enumeration

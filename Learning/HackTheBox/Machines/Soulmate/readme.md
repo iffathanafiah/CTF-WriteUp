@@ -11,14 +11,14 @@
 
 ## 🔗 Overview
 
-[Soulmate](https://app.hackthebox.com/machines/Soulmate) presents a challenge where the main site <code>soulmate.htb</code> looks like a basic registration/login system. However, <code>vhost</code> enumeration revealed a hidden subdomain <code>ftp.soulmate.htb</code> hosting a **CrushFTP instance**. Using the **authentication bypass vulnerability CVE-2025-31161**, we created a new user and gained access to the CrushFTP admin panel. This allowed **resetting the password for the legitimate user <code>ben</code>**, who had access to upload files to the web root. Uploading a PHP reverse shell led to a foothold as <code>www-data</code>.
+_[Soulmate](https://app.hackthebox.com/machines/Soulmate) presents a challenge where the main site <code>soulmate.htb</code> looks like a basic registration/login system. However, <code>vhost</code> enumeration revealed a hidden subdomain <code>ftp.soulmate.htb</code> hosting a **CrushFTP instance**. Using the **authentication bypass vulnerability CVE-2025-31161**, we created a new user and gained access to the CrushFTP admin panel. This allowed **resetting the password for the legitimate user <code>ben</code>**, who had access to upload files to the web root. Uploading a PHP reverse shell led to a foothold as <code>www-data</code>._
 
-Further enumeration uncovered an **Erlang-based SSH backdoor (start.escript)** with hardcoded credentials for <code>ben</code>. Logging in via SSH provided the user flag. Privilege escalation came from exploiting the **Erlang/OTP SSH daemon running locally on port 2222**, which allowed **command execution as root**, ultimately yielding the root flag.
+_Further enumeration uncovered an **Erlang-based SSH backdoor (start.escript)** with hardcoded credentials for <code>ben</code>. Logging in via SSH provided the user flag. Privilege escalation came from exploiting the **Erlang/OTP SSH daemon running locally on port 2222**, which allowed **command execution as root**, ultimately yielding the root flag._
 
 
 **⚡ Path:**
 
-Subdomain enum → **CrushFTP** (<code>ftp.soulmate.htb</code>) → **CVE-2025-31161** auth bypass → admin panel → reset <code>ben</code>'s password → webshell as <code>www-data</code> → Erlang script with **creds** → SSH as <code>ben</code> → **Erlang SSH daemon RCE** → <code>root</code>
+Subdomain enum → **CrushFTP** (<code>ftp.soulmate.htb</code>) → **CVE-2025-31161** auth bypass → admin panel → reset <code>ben</code>'s password → webshell as <code>www-data</code> → Erlang script with **creds** → SSH as <code>ben</code> → **Erlang SSH daemon RCE** → <code>root</code>.
 
 
 ## 🔍 Enumeration
