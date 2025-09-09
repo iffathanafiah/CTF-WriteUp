@@ -636,7 +636,7 @@ We can see here that the user <code>winrm_svc</code> also having the <code>Gener
 
 ![casvc](casvc.png)
 
-The user <code>ca_svc</code> looks interesting here, as the user is the member of the Cert Publishers groups which we might able to do the **Active Directory Certificate Services attacks**. Try to retrieve the hash for the user <code>ca_svc</code> using the same methods as before which are the **Shadow Credentials attack** then we can try to find is the CA services is vulnerable or not using the command.
+The user <code>ca_svc</code> looks interesting here, as the user is the member of the Cert Publishers groups which we might able to do the **Active Directory Certificate Services attacks**. Try to retrieve the hash for the user <code>ca_svc</code> using the same methods as before which is the **Shadow Credentials attack** then we can try to find is the CA services is vulnerable or not using the command.
 ```
 ┌──(kali㉿kali)-[/mnt/…/Learning/HackTheBox/Machines/Fluffy]
 └─$ certipy-ad find -username 'ca_svc' -hashes ':ca0f4f9e9eb8a092addf53bb03fc98c8' -dc-ip 10.10.11.69 -vulnerable
