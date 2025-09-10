@@ -6,7 +6,7 @@
 >
 > Difficulty: Easy
 >
-> Status: Season 8.5 Machine
+> Status: Season 8 Machine
 
 
 ## 🔗 Overview
